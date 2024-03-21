@@ -1,0 +1,98 @@
+.card {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 6px black;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h2 {
+  color: #d56f3e;
+}
+
+span {
+  color: #9d6f24;
+}
+
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media(min-width: 300px){
+    #pets{
+      flex-wrap: wrap;
+    }
+}
+.card a{
+  background-color: #d56f3e;
+  color: black;
+}
+form{
+  /* padding: 0;
+  margin: 0; */
+  border: 2px solid black;
+  border-radius: 25px;
+  background-image:url(back.png);
+  box-shadow: 0 0 6px black;
+  padding: 40px;
+}
+.buynow{
+  /* width: 600px; */
+  /* margin: 200px;
+  padding: 70px; */
+  border: 2px solid black;
+  border-radius: 25px;
+  /* display: flex;
+  flex-wrap:initial; */
+  /* height: 1200px; */
+  background-image:url(back.png);
+  box-shadow: 0 0 6px black;
+  /* justify-content: space-evenly; */
+  /* padding: 7px; */
+}
+#QR{
+  height: 150px;
+  width: 150px;
+}
+nav{
+  display: flex;
+  justify-content:space-between;
+  background-color: rgb(204, 204, 99);
+  box-shadow: 0 0 6px black;
+  height: 70px;
+  align-items: center;
+}
+.buy{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+footer div{
+  color:rgb(237, 233, 233);
+  height: 50px;
+  width: 100%;
+  background-color: #484544;
+  text-align: center;
+}
+footer div a{
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 15px;
+
+}
+.payment h3{
+  color: green;
+}
